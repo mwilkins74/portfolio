@@ -60,12 +60,12 @@ const Contact = () => {
               Check it out
             </a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <MdEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>markwilkins86@gmail.com</h5>
             <a href="mailto:markwilkins86@gmail.com">Send a message</a>
-          </article>
+          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

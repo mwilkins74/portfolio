@@ -24,15 +24,24 @@
   color: var(--color-primary);
 }
 
+.experience__frontend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .experience__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; /* Increase the gap to control spacing */
 }
 
 .experience__details {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem; /* Add margin to control spacing */
 }
 
 .experience__details-icon {
