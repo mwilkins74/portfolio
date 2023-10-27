@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
 import myProfile from "../../assets/me_img.jpg";
-import { FiAward, FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { FiAward } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -19,21 +18,11 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            {/* <article className="about__card"> */}
-              {/* <FiUsers className="about__icon" /> */}
-              {/* <h5>Clients</h5>
-              <small>100+ worldwide</small> */}
-            {/* </article> */}
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
               <small>1 year working</small>
             </article>
-            {/* <article className="about__card"> */}
-              {/* <VscFolderLibrary className="about__icon" /> */}
-              {/* <h5>Projects</h5>
-              <small>6+ completed projects</small> */}
-            {/* </article> */}
           </div>
 
           <p>
